@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><title>Tool Belt - User Guide</title>
+<style>
+ body{font-family:"Segoe UI",Arial,sans-serif;max-width:820px;margin:30px auto;padding:0 20px;color:#1e1f24;line-height:1.55}
+ h1{margin-bottom:0}.sub{color:#666;margin-top:4px}
+ h2{border-bottom:2px solid #3b82f6;padding-bottom:4px;margin-top:34px}
+ kbd{background:#eee;border:1px solid #ccc;border-radius:3px;padding:1px 5px;font-size:90%}
+ .tip{background:#eef4ff;border-left:4px solid #3b82f6;padding:8px 12px;margin:12px 0}
+ table{border-collapse:collapse;width:100%}td,th{border:1px solid #ddd;padding:6px 10px;text-align:left;vertical-align:top}th{background:#f4f5f7}
+</style></head><body>
+<h1>Tool Belt</h1>
+<p class="sub">Version 1.2 &middot; Dialsoft LLC &middot; <a href="https://dialsoft.com/toolbelt/">dialsoft.com/toolbelt</a></p>
+
+<p>Tool Belt is a bar that locks across the <b>top of your screen</b>, like a second taskbar. It holds
+<b>12 slots</b> for the programs, folders and websites you use every day. One click opens them.</p>
+
+<h2>Installing</h2>
+<p>There are two ways to get Tool Belt from <a href="https://dialsoft.com/toolbelt/">dialsoft.com/toolbelt</a>:</p>
+<table>
+<tr><td><b>Installer</b><br>(recommended)</td><td>Run <b>ToolBeltSetup.exe</b>. It installs Tool Belt just for you, with no administrator password, and lets you choose:
+ <ul><li><b>Start Tool Belt when Windows starts</b> (on). The belt is there every time you sign in.</li>
+ <li><b>Start menu shortcut</b> (on) and <b>Desktop shortcut</b> (off)</li></ul>
+ Hover over any option in Setup to see what it does. Tool Belt shows up in <b>Settings &gt; Apps &gt; Installed apps</b>, where you can uninstall it.
+ When you uninstall, it asks whether to keep your slots and settings.</td></tr>
+<tr><td><b>Portable</b></td><td>Download <b>ToolBelt.exe</b> and double-click it. Nothing is installed. Good for a USB stick or a PC you don't own.
+ To start it with Windows, use the belt menu's <b>Start Tool Belt when Windows starts</b>.</td></tr>
+</table>
+<p>To change your Setup options later, just run ToolBeltSetup.exe again. If Tool Belt is running, Setup closes it for you and keeps your slots.</p>
+
+<h2>Getting started</h2>
+<ol>
+ <li>Start Tool Belt (it starts by itself after Setup). The belt appears across the top of your screen.</li>
+ <li>The first four slots start out with File Explorer, Notepad, Calculator and Task Manager so you can see how it works.</li>
+ <li>To fill an empty slot (the dashed boxes with a <b>+</b>), <b>click it</b> and choose a program, folder or website.</li>
+ <li>Want it every time? Click the <b>belt button</b> at the far left and check <b>Start Tool Belt when Windows starts</b>.</li>
+</ol>
+<div class="tip">Hover over anything on the belt and wait a moment. A tooltip explains what it does.</div>
+
+<h2>It stays put</h2>
+<p>The belt can't be dragged or resized. Windows treats it like the real taskbar, so <b>maximized windows stop just below it</b>
+and nothing covers it up. When a game or video goes full screen, the belt steps behind it and comes back when you're done.</p>
+
+<h2>Putting tools in slots</h2>
+<table>
+<tr><th>To add...</th><th>Do this</th></tr>
+<tr><td>A program or shortcut</td><td>Drag it from your desktop, Start menu folder or File Explorer and <b>drop it on a slot</b>. Or right-click a slot and pick <i>Change to a program or file</i>.</td></tr>
+<tr><td>A folder</td><td>Drag the folder onto a slot, or right-click and pick <i>Change to a folder</i>.</td></tr>
+<tr><td>A website</td><td>Drag the address from your browser's address bar onto a slot, or right-click and pick <i>Change to a website</i>.</td></tr>
+<tr><td>A document</td><td>Drag the file onto a slot. Clicking it opens the document in its normal program.</td></tr>
+</table>
+
+<h2>Right-click a slot for options</h2>
+<ul>
+ <li><b>Open</b> or <b>Run as administrator (just this once)</b></li>
+ <li><b>Rename</b> - change the name on the belt (leave blank for the automatic name)</li>
+ <li><b>Command-line options</b> - advanced extras for a program, e.g. <code>/v:server01</code> for Remote Desktop</li>
+ <li><b>Always run as administrator</b> - marked with a small blue dot on the icon</li>
+ <li><b>Open file location</b> - shows where it lives on your PC</li>
+ <li><b>Move left / Move right</b> - or just <b>drag a slot onto another</b> to swap them</li>
+ <li><b>Clear this slot</b> - removes the button only, nothing is deleted from your PC</li>
+</ul>
+<p>A red <b>?</b> icon means the program can't be found any more (moved, uninstalled, or on a drive that's unplugged). Click it to pick a new one.</p>
+
+<h2>The belt menu (far-left button)</h2>
+<table>
+<tr><td><b>Bar size</b></td><td>Small, Medium or Large. Changes instantly.</td></tr>
+<tr><td><b>Show names next to icons</b></td><td>Turn off for an icons-only belt.</td></tr>
+<tr><td><b>Center the slots</b></td><td>Slots sit in the middle instead of the left.</td></tr>
+<tr><td><b>Show clock</b></td><td>Time on the right end (plus date on Medium and Large).</td></tr>
+<tr><td><b>Show on monitor</b></td><td>Pick which screen the belt sits on.</td></tr>
+<tr><td><b>Start with Windows</b></td><td>Opens the belt every time you sign in.</td></tr>
+<tr><td><b>Check for updates now / automatically</b></td><td>See <a href="#updates">Updates</a> below.</td></tr>
+<tr><td><b>Release notes</b></td><td>What changed in each version.</td></tr>
+<tr><td><b>Clear all slots</b></td><td>Start over (asks first).</td></tr>
+<tr><td><b>Open settings folder</b></td><td>Shows <code>ToolBelt.ini</code>, where your setup is saved.</td></tr>
+<tr><td><b>Exit Tool Belt</b></td><td>Closes the belt and gives the screen space back. Your slots are saved.</td></tr>
+</table>
+<p>Every setting takes effect the moment you click it. You never need to restart.</p>
+
+<h2 id="updates">Updates</h2>
+<p>Tool Belt keeps itself up to date. Shortly after it starts, and every 6 hours after that, it checks
+<b>dialsoft.com</b> for a newer version. When one is ready you'll see what's new and three choices:</p>
+<table>
+<tr><td><b>Update now</b></td><td>Downloads the new version, checks it is genuine and complete (exact size, SHA-256 fingerprint and version number),
+then swaps it in. The belt disappears for a few seconds and comes back on the new version with all your slots. The release notes open so you can see what changed.</td></tr>
+<tr><td><b>Remind me later</b></td><td>An <span style="color:#f97316">&#9679;</span> orange dot appears on the belt button. Click the belt button and choose <b>Install update</b> whenever you're ready.</td></tr>
+<tr><td><b>Skip this version</b></td><td>You won't hear about this version again. You'll still be told about newer ones.</td></tr>
+</table>
+<p>Nothing is ever installed without you clicking <b>Update now</b>. In the belt menu, <b>Check for updates now</b> checks right away, and
+<b>Check for updates automatically</b> turns the automatic checks on or off. <b>Release notes</b> lists what changed in every version.</p>
+<div class="tip">Keep ToolBelt.exe in a folder you own, like the Desktop, Documents or C:\Tools. Windows doesn't let programs in Program Files replace themselves.</div>
+
+<h2>Moving your belt to another PC</h2>
+<p>Everything is saved automatically in <code>%APPDATA%\Dialsoft\ToolBelt\ToolBelt.ini</code>.
+Copy that file and <b>ToolBelt.exe</b> to the other PC, put the .ini in the same folder there, and your belt comes with you.
+(Programs must be installed in the same place on the new PC, or their slots will show the red <b>?</b>.)</p>
+
+<h2>Requirements</h2>
+<p>Windows 10 or 11 (uses the .NET Framework 4.8 that's built into Windows). Under 100 KB installed. No administrator password needed.</p>
+</body></html>

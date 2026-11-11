@@ -1,0 +1,55 @@
+TOOL BELT - RELEASE NOTES
+=========================
+
+Version 1.2.0  (November 9, 2026)
+---------------------------------
+* New installer: ToolBeltSetup.exe. It installs Tool Belt just for you
+  (no administrator password) and lets you choose:
+  - Start Tool Belt when Windows starts (on by default)
+  - a Start menu shortcut (on) and a Desktop shortcut (off)
+  Hover over any option in Setup to see what it does.
+* Tool Belt now appears in Settings > Apps > Installed apps, with an
+  uninstaller. Uninstalling asks whether to keep your slots and settings.
+* Setup closes a running Tool Belt by itself, so installing over an
+  older copy just works. Your slots and settings are kept.
+* Installed copies still update themselves automatically, and the
+  version shown in Installed apps stays correct after each update.
+* The portable ToolBelt.exe (no installer) is still available too.
+
+Version 1.1.0  (November 9, 2026)
+---------------------------------
+* Automatic updates. Tool Belt checks dialsoft.com for a new version
+  15 seconds after it starts and every 6 hours after that.
+  - When one is ready, a window shows what's new and offers
+    "Update now", "Remind me later" or "Skip this version".
+    Nothing installs unless you click "Update now".
+  - Every download is checked three ways before it's used: exact size,
+    SHA-256 fingerprint, and the version stamped inside the program.
+    If any check fails, your current copy is left untouched.
+  - The belt disappears for a moment and comes back on the new version.
+    Your slots and settings are kept.
+  - If you click "Remind me later", an orange dot on the belt button
+    reminds you, and "Install update" appears in the belt menu.
+* New belt menu items: "Check for updates now", "Check for updates
+  automatically" (on by default, takes effect immediately) and
+  "Release notes".
+* After an update, Tool Belt shows these release notes automatically.
+* The user guide has a new "Updates" section.
+
+Version 1.0.0  (November 9, 2026)
+---------------------------------
+* First release.
+* Docks across the top of the screen like a second taskbar. It can't
+  be moved, and maximized windows stop just below it.
+* 12 slots for programs, shortcuts, documents, folders or websites.
+  Fill a slot by dragging something onto it, or click an empty slot to
+  browse.
+* Right-click a slot to open it, run it as administrator, rename it,
+  add command-line options, open its file location, move it or clear it.
+  Drag one slot onto another to swap them.
+* Belt menu: Small / Medium / Large, names on or off, center the slots,
+  clock, choose the monitor, start with Windows. All changes are instant.
+* Steps behind full-screen games and videos, then comes back on top.
+* Re-docks by itself when monitors or the resolution change, or when
+  Windows Explorer restarts.
+* Detailed tooltips on everything, plus a built-in user guide.

@@ -1,0 +1,10 @@
+{
+  "version": "1.2.0",
+  "published": "2026-11-09",
+  "notes": "* New installer: ToolBeltSetup.exe. It installs Tool Belt just for you\n  (no administrator password) and lets you choose:\n  - Start Tool Belt when Windows starts (on by default)\n  - a Start menu shortcut (on) and a Desktop shortcut (off)\n  Hover over any option in Setup to see what it does.\n* Tool Belt now appears in Settings > Apps > Installed apps, with an\n  uninstaller. Uninstalling asks whether to keep your slots and settings.\n* Setup closes a running Tool Belt by itself, so installing over an\n  older copy just works. Your slots and settings are kept.\n* Installed copies still update themselves automatically, and the\n  version shown in Installed apps stays correct after each update.\n* The portable ToolBelt.exe (no installer) is still available too.",
+  "exe": "https://dialsoft.com/toolbelt/ToolBelt.exe",
+  "sha256": "e9a2a216b33ad3091727eca625be18adc2de3465377bdbd6482b6c45a86c81af",
+  "size": 88576,
+  "setup": "https://dialsoft.com/toolbelt/ToolBeltSetup.exe",
+  "setupSize": 173071
+}
